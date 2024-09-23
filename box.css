@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'gameforfont' ;
+    src: url(squid.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    border-radius: 15px;
+    
+}
+
+body{
+    background-color: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 37%;
+    font-size: large;
+    width: 25%;
+   
+}
+.parentff{
+    display: grid;
+    justify-content: center;
+    font-family: 'gameforfont';
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-family: 'gameforfont';
+    background: linear-gradient(180deg,#c71010, rgb(0, 0, 0) )
+       
+}
+h3{
+    font-family: 'gameforfont';
+}
+
+#text{
+    color: white;
+    margin-right: 130px;
+    padding-right: 20%;
+    
+}
+
+#text2{
+    color: white;
+    margin-left: 150px;
+}
+.red{
+    color: #c71010;
+}
+.green{
+    color: #00f600c9;
+}
+.parent{
+    background-color: #808080;
+    padding: 18px;
+
+}
+.text-center {
+    text-align: center;
+  }
+
+  .button {
+    display: inline-block;
+    border-radius: 7px;
+    border: none;
+    background: #00f600c9;
+    color: white;
+    font-family: 'gameforfont';
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 0px 14px 56px -11px #29da56;
+    width: 11em;
+    padding: 1em;
+    transition: all 0.4s;
+    cursor: pointer;
+   }
+   
+   .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+   }
+   
+   .button span:after {
+    content: 'for free';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.7s;
+   }
+   .button:active {
+    scale: 0.95;
+  }
+   .button:hover span {
+    padding-right: 6.5em;
+   }
+   
+   
